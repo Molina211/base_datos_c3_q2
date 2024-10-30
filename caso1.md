@@ -1,18 +1,13 @@
 ### Se requiere crear una consulta para:
 
-    Obtener de manera ordenada la lista de vistas y modulos a los que tiene acceso un rol en estado activo. 
+- Obtener de manera ordenada la lista de vistas y modulos a los que tiene acceso un rol en estado activo. 
 
 ## Forma esperada: 
 
-    role[name=> rol, route => ruta]
-    module[name=> modulo, route => paquete]
-    
-    Nota: order by atributo
-    SELECT 
-        * 
-    FROM 
-        persona p
-    ORDER BY p.nombre
+- role[name=> rol, route => ruta]
+- module[name=> modulo, route => paquete]
+
+## Forma SQL: 
 
 ```sql
 use db_security;
@@ -33,5 +28,5 @@ WHERE u.state = true;
 ```
 
 # RESULTADO
-![Consulta completa](img/Sinfiltro.png)
-![Consulta con filtro](img/Confiltro.png)
+![Consulta completa](IMG/Sinfiltro.png)
+![Consulta con filtro](IMG/Confiltro.png)
