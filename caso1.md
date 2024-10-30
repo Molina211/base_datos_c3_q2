@@ -31,4 +31,5 @@ WHERE u.state = true;
 ```
 
 # RESULTADO
-
+![Consulta completa](img/Con filtro.png)
+![Consulta con filtro](img/Sin filtro.png)
