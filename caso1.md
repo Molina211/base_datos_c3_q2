@@ -1,6 +1,8 @@
 ### Se requiere crear una consulta para:
 
-    - Obtener de manera ordenada la lista de vistas y modulos a los que tiene acceso un rol en estado activo. 
+    Obtener de manera ordenada la lista de vistas y modulos a los que tiene acceso un rol en estado activo. 
+
+## Forma esperada: 
 
     role[name=> rol, route => ruta]
     module[name=> modulo, route => paquete]
@@ -31,5 +33,5 @@ WHERE u.state = true;
 ```
 
 # RESULTADO
-![Consulta completa](img/Con filtro.png)
-![Consulta con filtro](img/Sin filtro.png)
+![Consulta completa](img/Sinfiltro.png)
+![Consulta con filtro](img/Confiltro.png)
